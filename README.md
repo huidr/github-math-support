@@ -12,7 +12,7 @@ Let $p$ and $q$ are primes. Then $pq + 1$ is a perfect square if and only if $p$
 
 The formal derivative on polynomial rings obeys:
 
-$$ D\left( a_n \prod_{i=1}^n (t-\alpha_i)^{k_i} \right) = a_n \sum_{i=1}^n k_i (t-\alpha_i)^{k_i - 1}.$$
+$$ D\left( a_n \prod_{i=1}^n (t-\alpha_i)^{k_i} \right) = a_n \sum_{i=1}^n k_i (t-\alpha_i)^{k_i - 1} \prod_{\substack {j=1\\ j\ne i}}^n (t-\alpha_j)^{k_j}.$$
 
 ### Restrictions
 
