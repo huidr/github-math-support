@@ -10,6 +10,14 @@ Let $p$ and $q$ are primes. Then $pq + 1$ is a perfect square if and only if $p$
 
 ### Examples: Display
 
+The formal derivative on polynomial rings obeys:
+
+$$ D\left( a_n \prod_{i=1}^n (t-\alpha_i)^{k_i} \right) = a_n \sum_{i=1}^n k_i (t-\alpha_i)^{k_i - 1}.$$
+
+### Restrictions
+
+Environments are not supported yet.
+
 This is a matrix: 
 \begin{pmatrix}
  -1 & 2 & 1 & 0 \\
@@ -17,7 +25,3 @@ This is a matrix:
  1 & -1 & 2 & 0 \\
  -1 & 2 & 0 & 1.
 \end{pmatrix}
-
-The formal derivative on polynomial rings obeys:
-
-$$ D\left( a_n \prod_{i=1}^n (t-\alpha_i)^{k_i} \right) = a_n sum_{i=1}^n k_i (t-\alpha_i)^{k_i - 1}.$$
